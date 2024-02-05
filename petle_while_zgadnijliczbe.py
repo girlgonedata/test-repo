@@ -20,4 +20,4 @@ while guess != the_number:
 
 #When the user succeeds
 
-print(f"Congratulations! The number was {the_number}! It took {tries} tries!")
+print(f"Congratulations! The number was {the_number}! It took you {tries} tries!")
