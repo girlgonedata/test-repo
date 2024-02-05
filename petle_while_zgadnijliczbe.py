@@ -1,4 +1,5 @@
-print("Mam na myśli pewną liczbę od 1 do 100... Czy potrafisz odgadnąć, jaką?")
+print("Hello stranger!\nI'm thinking of a number between 1 and 100... Can you guess it?")
+print("\nTry to guess it in as few attempts as possible...or die trying!\n")
 
 import random
 
