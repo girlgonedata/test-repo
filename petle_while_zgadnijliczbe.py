@@ -4,20 +4,20 @@ print("\nTry to guess it in as few attempts as possible...or die trying!\n")
 import random
 
 the_number = random.randint(1,100)
-guess = int(input("Ta liczba to... "))
-tries = 1
+guess = int(input("The number is...  "))
+tries = 0
 
-#Zgadywanie
+#The guessing part
 
 while guess != the_number:
     if guess > the_number:
-        print("Za duża!")
+        print("Too high!")
     else:
-        print("Za mała!")
+        print("Too low!")
 
-    guess = int(input("Ta liczba to... "))
+    guess = int(input("Keep guessing...  "))
     tries += 1
 
-#Gdy uda się odgadnąć
+#When the user succeeds
 
-print(f"GRATULACJE! Ta liczba to {the_number}! Odgadłeś za {tries} razem!")
+print(f"Congratulations! The number was {the_number}! It took {tries} tries!")
